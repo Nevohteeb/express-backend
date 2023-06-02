@@ -6,7 +6,6 @@ const express = require('express')
 const mongoose = require('mongoose')
 // import routes
 const workoutRoutes = require('./routes/workouts')
-const { log } = require('firebase-functions/logger')
 
 //start express app
 const app = express()
